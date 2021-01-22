@@ -29,7 +29,7 @@ export default function Board() {
 
   return (
     <div>
-      <div className="status" onClick={() => setSquares("X")}>Next player: {status}</div>
+      <div className="status">Next player: {status}</div>
       {
         winner ? <Banner name={winner} /> : null
       }
